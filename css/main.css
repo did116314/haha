@@ -1,0 +1,47 @@
+@charset 'uft';
+
+html {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+}
+body {
+    overflow-x: hidden;
+    color: rgb(28, 28, 31);
+    letter-spacing: -0.05em;
+    background: white;
+}
+P {
+    line-height: 1.6;
+}
+a{
+    color: rgb(28, 28, 31);
+    text-decoration: none;
+}
+.global-nav {
+    height: 80px;
+}
+.local-nav {
+    height: 100;
+    border-bottom: 1px solid #ddd;
+}
+.global-nav-links,
+.local-nav-links{
+    display: flex;
+    align-items: center;
+    max-width: 2000px;
+    height: 100%;
+    margin: 0px auto;
+    font-colo;
+}
+.global-nav-links {
+    justify-content: space-between;
+}
+.local-nav-links .product-name {
+    margin-right: auto;
+    font-size: 1.2rem;
+}
+.local-nav-links a:not(.product-name) {
+    margin-left: 2em;
+    font-size: 0.8rem;
+}
+   
